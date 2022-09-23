@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+}
+
+/* -------------- */
+div {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* -------------- */
+p {
+  letter-spacing: 5px;
+  text-decoration: underline;
+}
+
+/* -------------- */
+button {
+  font-size: 12px;
+  padding: 5px 15px;
+  border: 2px solid black;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+button:hover {
+  color: white;
+  background-color: black;
+}
+
+/* -------------- */
+ul {
+  background-color: #282828;
+  margin: 10px auto;
+  padding: 10px;
+  list-style-type: none;
+  width: fit-content;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: #282828;
+}
+
+/* -------------- */
+
+table,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  background-color: darkturquoise;
+}
+
+th,
+td {
+  padding: 2px 20px;
+}

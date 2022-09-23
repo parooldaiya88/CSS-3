@@ -1,0 +1,33 @@
+body {
+  font-family: sans-serif;
+}
+
+.text-format {
+  width: 80%;
+  border: 2px solid grey;
+  padding: 10px;
+
+  /* TEXT ALIGN: */
+  /*text-align: left;
+  text-align: right;*/
+  text-align: justify;
+  /*text-align: center;*/
+
+  /* TEXT DECORATION: */
+  /* text-decoration: line-through;
+  text-decoration: overline;
+  text-decoration: underline; */
+
+  /* TEXT TRANSFORM: */
+  text-transform: capitalize;
+  /* text-transform: uppercase; 
+  text-transform: lowercase;*/
+
+  /* TEXT SPACING: */
+  letter-spacing: 2px;
+  word-spacing: 3px;
+
+  /* TEXT SHADOW: */
+  text-shadow: 2px 2px 3px blue;
+  box-shadow: 30px 30px 30px red;
+}

@@ -1,0 +1,53 @@
+body {
+  font-family: sans-serif;
+}
+
+.flexbox-container {
+  border: 2px solid red;
+  min-height: 300px;
+
+  /* FLEXBBOX: */
+  display: flex;
+
+  /* PLACE ELEMENTS HORIZONTALY: */
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: flex-start;
+  justify-content: space-evenly;
+
+  /* PLACE ELEMENTS VERTICALLY: */
+  align-items: stretch;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+
+  /* FLEX DIRECTION: */
+  /* FLEX DIRECTION COLUMN CHANGES THE WHOLE CROSS-AXIS
+  THEN ALIGN-ITEMS CHANGES HORIZONTALY
+  and JUSTIFY_CONTENT CHANGES VERTICALY */
+  flex-direction: column;
+  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+  flex-direction: row;
+
+  /*  WRAP ALL CHILDS ELEMENTS IF THEY DON'T HAVE ENOUGH PLACE */
+  flex-wrap: wrap;
+}
+
+.flex-child {
+  border: 2px solid green;
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MAKE ONE ELEMENT DOUBLE THE SIZE OF OTHERS */
+.flex-special {
+  flex-grow: 2;
+}
